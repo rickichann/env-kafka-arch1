@@ -1,0 +1,14 @@
+
+init.
+python -m venv myenv
+
+- activate
+.\myenv\Scripts\Activate
+
+
+- execution policy permanently
+Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Bypass
+
+
+- resetting the execution policy
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Undefined
